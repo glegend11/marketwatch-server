@@ -1,14 +1,17 @@
 {
   "name": "marketwatch-server",
   "version": "1.0.0",
-  "description": "ASX + US stock data proxy server",
+  "description": "ASX stock data proxy server",
   "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "yahoo-finance2": "^2.11.3",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "node-fetch": "2.7.0"
   }
 }
